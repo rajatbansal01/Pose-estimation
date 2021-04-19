@@ -1,6 +1,6 @@
 from PoseModule import *
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("test1.mp4")
 ptime = 0
 detector = poseDetector()
 
